@@ -17,9 +17,9 @@ To run the container
 
     docker run -i -t --name mysql -p 3306:3306 -v <path_with_dumps>:/tmp/external <name_of_your_choice>
 
-To exit the container press Ctrl+p+q
+To exit of the container press Ctrl+p+q
 
-To enter the container terminal
+To enter in the container terminal
 
     List the containers
     docker ps -a
