@@ -4,7 +4,7 @@ Minimal environment for CentOs + Mysql
 Use with Docker http://www.docker.io
 
 This Dockerfile provide an environment Centos + Mysql for to be used in the developing environment, for to be faster and more productive create databases.
-Questions as security and performance will not think.
+Questions as security and performance were not thought.
 
 
 To construct the image
@@ -31,7 +31,11 @@ To enter the container terminal
     mysql -u root -p'password'
 
 Obs:
+
 :: Remember of give execution permission for the file run.sh [chmod a+x /run.sh]
+
 :: Put your dumps in the same folder of the file run.sh. The name of that dumps need to be the same of the database
+
 :: Change the file run.sh and include the names of the databases to be included
-:: The password root is 'root', but you can change by changing the file Dockerfile
+
+:: The password root is 'root', but you can change it by changing the file Dockerfile
